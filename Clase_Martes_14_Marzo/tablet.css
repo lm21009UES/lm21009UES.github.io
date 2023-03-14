@@ -1,0 +1,29 @@
+.fin{
+    grid-area: none;
+}
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 32.5% 67.5%;
+    grid-template-rows: 40px 250px 359px;
+    grid-template-areas: 
+    "logo menu"
+    "responsive responsive"
+    "cuadro cuadro";
+    background-color: rgb(225, 240, 235);
+}
+.columnas{
+    grid-area: cuadro;
+    background-color: white;
+    border-top: 10px solid white;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 150px repeat(6, 10px);
+    gap: 20px;
+    justify-content: center;
+}
+.responsive{
+    font-size: 70px;
+    text-align: center;
+}

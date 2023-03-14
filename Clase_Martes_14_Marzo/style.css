@@ -1,0 +1,88 @@
+body{
+    background-color: beige;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 25% 60% 15%;
+    grid-template-rows: 40px 250px 359px;
+    grid-template-areas: 
+    "logo menu boton"
+    "responsive responsive responsive"
+    "cuadro cuadro cuadro";
+    background-color: rgb(225, 240, 235);
+}
+
+.logo{
+    grid-area: logo;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    padding-right: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80%;
+}
+
+.menu{
+    grid-area: menu;
+    display: grid;
+    background-color: white;
+    width: 100%;
+    grid-template-columns: 10% 10% 20% 20% 20%;
+    grid-template-areas: "vacio menu about shoppin close";
+    align-content: center;
+    text-align: center;
+    gap: 10%;
+    font-size: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.menu .boton{
+    background-color: rgb(76, 67, 199);
+    display: flex;
+    line-height: 40px;
+    justify-content: center;
+    border-bottom: 10px solid rgb(40, 40, 104);
+}
+
+.fin{
+    grid-area: boton;
+    line-height: 45px;
+    justify-content: left;
+}
+
+.responsive{
+    background-color: rgb(92, 92, 202);
+    grid-area: responsive;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    justify-items: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.columnas{
+    grid-area: cuadro;
+    background-color: white;
+    border-top: 10px solid white;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 150px repeat(6, 10px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.item{
+    background-color: gray;
+}
+
+.border{
+    border-radius: 100px;
+}
