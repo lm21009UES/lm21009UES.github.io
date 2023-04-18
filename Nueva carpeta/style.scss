@@ -1,0 +1,27 @@
+@use "cajas";
+
+$background-color: rgb(171, 171, 207);
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    h1{
+        color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        color: rgb(32, 32, 32);
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+div{
+    background-color: $background-color;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}

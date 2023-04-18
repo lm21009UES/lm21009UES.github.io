@@ -1,0 +1,39 @@
+#caja {
+  background-color: aqua;
+}
+#caja #caja2 {
+  background-color: brown;
+}
+#caja #caja2 h1 {
+  color: chartreuse;
+}
+#caja #caja2 p {
+  background-color: aquamarine;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body h1 {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body p {
+  color: rgb(32, 32, 32);
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+div {
+  background-color: rgb(171, 171, 207);
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
